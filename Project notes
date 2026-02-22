@@ -1,3 +1,5 @@
+For the testing I will be doing Auckland Zoo in December.
+
 Lions optimal temperature: 20C-30C. As low as 15 and high as 35 should be okay.
 Shade coverage:
 | Peak Temp | Recommended Shade Coverage |
@@ -7,6 +9,22 @@ Shade coverage:
 | 35–40 °C  | 65–75%                     |
 | > 40 °C   | 75%+ + cooled dens         |
 
+If Temperature > 28°C AND Shade < 30% → Heat Stress Risk = High
+If Temperature 24–28°C AND Shade 30–50% → Medium
+Else → Low
+
+| Hour  | Temperature (°C) | Effective Shade (%) | Heat Stress Risk |
+|-------|------------------|---------------------|------------------|
+| 8:00  | 22               | 60                  | Low              |
+| 9:00  | 24               | 55                  | Low              |
+| 10:00 | 26               | 45                  | Low              |
+| 11:00 | 28               | 35                  | Medium           |
+| 12:00 | 30               | 25                  | High             |
+| 13:00 | 31               | 20                  | High             |
+| 14:00 | 30               | 25                  | High             |
+| 15:00 | 29               | 35                  | Medium           |
+| 16:00 | 27               | 45                  | Low              |
+| 17:00 | 25               | 55                  | Low              |
 
 Rockhopper penguins optimal temperature: 5-12C. Acceptable range: 2-18C. Water temperature: 4-10C (Very important)
 | Peak Air Temp | Recommended Shade Coverage  |
