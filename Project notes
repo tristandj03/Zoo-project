@@ -34,6 +34,25 @@ Rockhopper penguins optimal temperature: 5-12C. Acceptable range: 2-18C. Water t
 | 18–22 °C      | 60–75%                      |
 | > 22 °C       | 75%+ + cooled indoor access |
 
+| Hour  | Temperature (°C) | Effective Shade (%) | Water Access (%) | Heat Stress Risk |
+|-------|------------------|---------------------|------------------|------------------|
+| 8:00  | 16               | 60                  | 80               | Low              |
+| 9:00  | 18               | 55                  | 80               | Low              |
+| 10:00 | 20               | 45                  | 80               | Medium           |
+| 11:00 | 22               | 35                  | 80               | Medium           |
+| 12:00 | 24               | 25                  | 80               | High             |
+| 13:00 | 25               | 20                  | 80               | High             |
+| 14:00 | 24               | 25                  | 80               | High             |
+| 15:00 | 22               | 35                  | 80               | Medium           |
+| 16:00 | 20               | 45                  | 80               | Medium           |
+| 17:00 | 18               | 55                  | 80               | Low              |
+
+High risk:
+Temp > 22°C AND Shade < 30%
+Medium:
+Temp 18–22°C AND Shade 30–50%
+Low:
+Temp < 18°C OR strong shade/refuge
 
 Mack, Caitlin (2016) "Role of Temperature and Shade Coverage on Behavior and Habitat Use of Captive African Lions, Snow
 Leopards, and Cougars," Xavier Journal of Undergraduate Research: Vol. 4 , Article 7.
